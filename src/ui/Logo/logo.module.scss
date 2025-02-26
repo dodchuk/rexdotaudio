@@ -1,0 +1,48 @@
+@import "@/ui/GlobalStyles/mixins/mq.scss";
+@import "@/ui/GlobalStyles/variables.scss";
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03); // Scale the logo up to 110% of its size
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logoWrp {
+  margin-bottom: 48px;
+  max-width: 200px;
+  position: relative;
+
+  @include mqMaxWidth($screen-1100) {
+    margin: 0 auto;
+  }
+}
+
+.logo {
+  svg {
+    transition: fill 0.7s ease;
+    fill: #000000;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+
+    &:hover {
+      animation: pulse 2.3s infinite;
+    }
+
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }
+  @include mqMaxWidth($screen-1100) {
+    svg {
+      fill: #FFFFFF;
+    }
+  }
+}

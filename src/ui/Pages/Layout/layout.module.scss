@@ -1,0 +1,19 @@
+@import "@/ui/GlobalStyles/mixins/mq.scss";
+@import "@/ui/GlobalStyles/variables.scss";
+
+.page {
+  padding: 0;
+}
+
+.content {
+  color: #eee;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.description {
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-size: 16px;
+}
