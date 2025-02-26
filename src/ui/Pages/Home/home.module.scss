@@ -32,6 +32,7 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   line-height: 26px;
   letter-spacing: -1px;
   font-weight: 600;
+  color: #D3D3D3;
 }
 
 .experience {
@@ -39,6 +40,10 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
 
   h2, h3 {
     margin-bottom: 15px;
+
+    span {
+      color: #888891;
+    }
   }
 }
 
@@ -47,6 +52,13 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   border-bottom: 1px solid #28282a;
   padding: 18px;
 
+  span {
+    font-size: 16px;
+    line-height: 26px;
+    color: #888891;
+    display: block;
+  }
+
   &:hover {
     background: rgba(255, 255, 255, 0.1);
   }
@@ -54,11 +66,4 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
     position: relative;
     top: 1px;
   }
-}
-
-.itemText {
-  font-size: 16px;
-  line-height: 26px;
-  color: #888891;
-  display: block;
 }
