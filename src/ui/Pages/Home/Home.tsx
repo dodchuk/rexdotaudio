@@ -1,8 +1,7 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
-import LogoSVG from '@/ui/Logo/logo.svg';
+import cn from 'classnames';
 import styles from './home.module.scss';
 
 interface IProps {
@@ -41,7 +40,7 @@ const Home = ({}: IProps) => {
           </a>
           <a className={ styles.item }
              href="https://soundcloud.com/instrumentrex/sets/virtualization">
-            Soundcloud <span>Слухай "Віртуалізація" на Soundcloud</span>
+            SoundCloud <span>Слухай "Віртуалізація" на SoundCloud</span>
           </a>
         </div>
 
@@ -49,13 +48,13 @@ const Home = ({}: IProps) => {
           <h2>Сторінка артиста на різних платформах</h2>
           <a
             className={ styles.item }
-            href="https://soundcloud.com/instrumentrex">
-            Soundcloud <span>Знайти на Soundcloud</span>
+            href="https://open.spotify.com/artist/5YvHRDfx2Gaw37kmKVQk2j">
+            Spotify <span>Знайти на Spotify</span>
           </a>
           <a
             className={ styles.item }
-            href="https://open.spotify.com/artist/5YvHRDfx2Gaw37kmKVQk2j">
-            Spotify <span>Знайти на Spotify</span>
+            href="https://music.apple.com/us/artist/інструмент-рекс/1791640697">
+            Apple Music <span>Знайти на Apple Music</span>
           </a>
           <a
             className={ styles.item }
@@ -63,11 +62,10 @@ const Home = ({}: IProps) => {
             YouTube Music <span>Знайти на YouTube Music</span>
           </a>
           <a
-            className={ styles.item }
-            href="https://music.apple.com/us/artist/інструмент-рекс/1791640697">
-            Apple Music <span>Знайти на Apple Music</span>
+            className={ cn(styles.item, styles.soundcloud) }
+            href="https://soundcloud.com/instrumentrex">
+            SoundCloud <span>Знайти на SoundCloud</span>
           </a>
-
         </div>
       </div>
     </div>

@@ -15,6 +15,7 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
 .logo {
   width: 160px;
   margin: 0 auto 20px auto;
+  border-radius: 50%;
 
   img {
     text-align: center;
@@ -62,8 +63,24 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   &:hover {
     background: rgba(255, 255, 255, 0.1);
   }
+
   &:active {
     position: relative;
     top: 1px;
+  }
+
+  &.soundcloud {
+    background: rgba(255, 85, 0, 0.5);
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 85, 0, 0.5);
+
+    span {
+      color: #FFD700;
+    }
+
+    &:hover {
+      background: rgba(255, 85, 0, 0.3);
+
+    }
   }
 }
