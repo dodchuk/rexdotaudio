@@ -15,10 +15,10 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
 .logo {
   width: 160px;
   margin: 0 auto 20px auto;
-  border-radius: 50%;
 
   img {
     text-align: center;
+    border-radius: 50%;
   }
 }
 
@@ -80,7 +80,50 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
 
     &:hover {
       background: rgba(255, 85, 0, 0.3);
-
+      border-bottom: 1px solid rgba(255, 85, 0, 0.3);
     }
+  }
+}
+
+.album {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.cover {
+  width: 100px;
+  height: 100px;
+
+  img {
+    border-radius: 4px;
+  }
+}
+
+.albumInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #89929c;
+  height: 100%;
+
+  h3 {
+    font-size: 21px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 8px;
+
+    span {
+      margin-top: 0;
+    }
+  }
+
+  span {
+    padding: 0;
+    margin-top: -4px;
   }
 }
