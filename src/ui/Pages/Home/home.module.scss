@@ -15,9 +15,15 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
 .logo {
   width: 160px;
   margin: 0 auto 20px auto;
+  text-align: center;
+
+  a {
+    width: 160px;
+    height: 160px;
+    display: block;
+  }
 
   img {
-    text-align: center;
     border-radius: 50%;
   }
 }
