@@ -24,14 +24,14 @@ const Home = ({}: IProps) => {
         </div>
         <div className={ styles.experience }>
           <h2>Слухай</h2>
-          <div className={ styles.album }>
+          <a href="https://open.spotify.com/album/5z80C9raZBsveKxNqCB6zh" className={ styles.album }>
             <div className={ styles.cover }><img src="/album1.jpg" width="100" /></div>
             <div className={ styles.albumInfo }>
               <h3 className={ styles.albumName }>Віртуалізація</h3>
               <span>28 січня 2025</span>
               <span>Slew Records</span>
             </div>
-          </div>
+          </a>
 
           <a
             className={ styles.item }

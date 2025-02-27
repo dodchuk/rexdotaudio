@@ -99,6 +99,15 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   padding: 20px;
   border-radius: 4px;
   margin-bottom: 16px;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
 }
 
 .cover {
