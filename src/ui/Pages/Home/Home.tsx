@@ -55,22 +55,22 @@ const Home = ({}: IProps) => {
           <a
             className={ cn(styles.item, styles.soundcloud) }
             href="https://soundcloud.com/instrumentrex/nova-era">
-            Нова Ера <span>Слухай "Нова Ера" на SoundCloud</span>
+            1. Нова Ера <span>Слухай "Нова Ера" на SoundCloud</span>
           </a>
           <a
             className={ cn(styles.item, styles.soundcloud) }
             href="https://soundcloud.com/instrumentrex/chrome-dreams">
-            Хромовані Сни <span>Слухай "Хромовані Сни" на SoundCloud</span>
+            2. Хромовані Сни <span>Слухай "Хромовані Сни" на SoundCloud</span>
           </a>
           <a
             className={ cn(styles.item, styles.soundcloud) }
             href="https://soundcloud.com/instrumentrex/future">
-            Майбутнє <span>Слухай "Майбутнє" на SoundCloud</span>
+            3. Майбутнє <span>Слухай "Майбутнє" на SoundCloud</span>
           </a>
           <a
             className={ cn(styles.item, styles.soundcloud) }
             href="https://soundcloud.com/instrumentrex/club-mate">
-            Клуб Мате (за участі MT) <span>Слухай "Клуб Мате (за участі MT)" на SoundCloud</span>
+            4. Клуб Мате (за участі MT) <span>Слухай "Клуб Мате (за участі MT)" на SoundCloud</span>
           </a>
         </div>
         <div className={ styles.experience }>
