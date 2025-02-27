@@ -32,7 +32,6 @@ const Home = ({}: IProps) => {
               <span>Slew Records</span>
             </div>
           </a>
-
           <a
             className={ styles.item }
             href="https://open.spotify.com/album/5z80C9raZBsveKxNqCB6zh">
@@ -51,7 +50,24 @@ const Home = ({}: IProps) => {
             SoundCloud <span>Слухай "Віртуалізація" на SoundCloud</span>
           </a>
         </div>
-
+        <div className={ styles.experience }>
+          <h2>Обрані треки</h2>
+          <a
+            className={ cn(styles.item, styles.soundcloud) }
+            href="https://soundcloud.com/instrumentrex/future">
+            Майбутнє <span>Слухай "Майбутнє" на SoundCloud</span>
+          </a>
+          <a
+            className={ cn(styles.item, styles.soundcloud) }
+            href="https://soundcloud.com/instrumentrex/club-mate">
+            Клуб Мате (за участі MT) <span>Слухай "Клуб Мате (за участі MT)" на SoundCloud</span>
+          </a>
+          <a
+            className={ cn(styles.item, styles.soundcloud) }
+            href="https://soundcloud.com/instrumentrex/chrome-dreams">
+            Хромовані Сни <span>Слухай "Хромовані Сни" на SoundCloud</span>
+          </a>
+        </div>
         <div className={ styles.experience }>
           <h2>Сторінка артиста на різних платформах</h2>
           <a
