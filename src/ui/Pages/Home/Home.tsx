@@ -19,7 +19,7 @@ const Home = ({}: IProps) => {
         <div className={ styles.description }>
           {/* <p>Назва – гра слів, натхненна Instrument Racks в Ableton, що дозволяє нашаровувати безліч інструментів.</p> */}
           <p><strong>Інструмент Рекс</strong> – електронний музичний проєкт, що експерементує з темними атмосферними
-            текстурами, швидкими ритмами та глибоким басом відтворючи атмосферу нічних клубів.
+            текстурами, швидкими ритмами та глибоким басом, створючи занурюючий аудіальний досвід.
           </p>
         </div>
         <div className={ styles.experience }>
@@ -53,24 +53,14 @@ const Home = ({}: IProps) => {
         <div className={ styles.experience }>
           <h2>Обрані треки</h2>
           <a
-            className={ cn(styles.item, styles.soundcloud) }
-            href="https://soundcloud.com/instrumentrex/nova-era">
-            1. Нова Ера <span>Слухай "Нова Ера" на SoundCloud</span>
-          </a>
-          <a
-            className={ cn(styles.item, styles.soundcloud) }
-            href="https://soundcloud.com/instrumentrex/chrome-dreams">
-            2. Хромовані Сни <span>Слухай "Хромовані Сни" на SoundCloud</span>
-          </a>
-          <a
-            className={ cn(styles.item, styles.soundcloud) }
+            className={ cn(styles.item, styles.fav) }
             href="https://soundcloud.com/instrumentrex/future">
-            3. Майбутнє <span>Слухай "Майбутнє" на SoundCloud</span>
+            Майбутнє <span>Слухай "Майбутнє" на SoundCloud</span>
           </a>
           <a
-            className={ cn(styles.item, styles.soundcloud) }
+            className={ cn(styles.item, styles.fav) }
             href="https://soundcloud.com/instrumentrex/club-mate">
-            4. Клуб Мате (за участі MT) <span>Слухай "Клуб Мате (за участі MT)" на SoundCloud</span>
+            Клуб Мате (за участі MT) <span>Слухай "Клуб Мате (за участі MT)" на SoundCloud</span>
           </a>
         </div>
         <div className={ styles.experience }>

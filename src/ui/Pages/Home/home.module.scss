@@ -10,21 +10,24 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
 
 .content {
   padding: 88px 40px 20px 40px;
+
 }
 
 .logo {
   width: 160px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 44px auto;
   text-align: center;
 
   a {
     width: 160px;
     height: 160px;
     display: block;
+    cursor: pointer;
   }
 
   img {
     border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -75,18 +78,15 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
     top: 1px;
   }
 
-  &.soundcloud {
-    background: rgba(255, 85, 0, 0.5);
-    color: #fff;
-    border-bottom: 1px solid rgba(255, 85, 0, 0.5);
+  &.fav {
+    //background: rgba(11, 90, 255, 0.5);
+    //border-bottom: 1px solid rgba(255, 85, 0, 0.5);
 
-    span {
-      color: #FFD700;
-    }
+    color: #FFD700;
 
     &:hover {
-      background: rgba(255, 85, 0, 0.3);
-      border-bottom: 1px solid rgba(255, 85, 0, 0.3);
+      //background: rgba(255, 85, 0, 0.3);
+      //border-bottom: 1px solid rgba(255, 85, 0, 0.3);
     }
   }
 }
