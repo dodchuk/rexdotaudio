@@ -70,7 +70,9 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  max-width: 800px;
+  // Uncomment when is second release is avaliable
+  //max-width: 800px;
+  width: 560px;
 
   @include mqMaxWidth(768px) {
     display: block;
@@ -86,8 +88,10 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   //width: 50%;
   width: 100%;
   padding: 0 20px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  // Uncomment when is second release is avaliable
+  //margin-bottom: 20px;
 
   @include mqMaxWidth(768px) {
     width: 100%;
@@ -128,15 +132,7 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   }
 
   &.fav {
-    //background: rgba(11, 90, 255, 0.5);
-    //border-bottom: 1px solid rgba(255, 85, 0, 0.5);
-
     color: #FFD700;
-
-    &:hover {
-      //background: rgba(255, 85, 0, 0.3);
-      //border-bottom: 1px solid rgba(255, 85, 0, 0.3);
-    }
   }
 }
 
