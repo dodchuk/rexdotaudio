@@ -70,9 +70,7 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  // Uncomment when is second release is avaliable
   max-width: 800px;
-  //width: 560px;
 
   @include mqMaxWidth(768px) {
     display: block;
@@ -89,7 +87,7 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   max-width: 520px;
   margin: 25px auto 10px auto;
   height: 1px;
-  background: rgba(40, 40, 42, 0.52);
+  background: rgba(40, 40, 42, 0.3);
 }
 
 .comingOverlay {
@@ -108,8 +106,7 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
 
 .release {
   position: relative;
-  // Uncomment when is second release is avaliable
-  //width: 50%;
+  float: left;
   width: 100%;
   padding: 0 20px;
   margin-top: 20px;
@@ -120,11 +117,9 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
   @include mqMaxWidth(768px) {
     width: 100%;
     padding: 0;
+    margin-bottom: 10px;
 
     &:last-of-type {
-      margin-top: 20px;
-      // Uncomment when is second release is avaliable
-      //margin-top: 0;
       margin-bottom: 0;
     }
   }
