@@ -27,31 +27,26 @@ const Home = ({}: IProps) => {
         <div className={ styles.divider } />
           <div className={ styles.discography }>
             <div className={ styles.release }>
-              <div className={ styles.comingOverlay } />
-              <a href="https://open.spotify.com/album/5z80C9raZBsveKxNqCB6zh" className={ styles.album }>
+              <a href="https://open.spotify.com/album/7B4HOXXoxgfK6kW7coUXSq" className={ styles.album }>
                 <div className={ styles.cover }><img src="/3.png" width="100"/></div>
                 <div className={ styles.albumInfo }>
-                  <h3 className={ styles.albumName }>3</h3>
-                  <span>8 червня 2025</span>
+                  <h3 className={ styles.albumName }>Хтонічний Світ</h3>
+                  <span>9 червня 2025</span>
                   <span>Sono Distribution</span>
                 </div>
               </a>
               <a
                 className={ styles.item }
-                href="#">
-                Spotify <span>Слухай "3" на Spotify</span>
+                href="https://open.spotify.com/album/7B4HOXXoxgfK6kW7coUXSq">
+                Spotify <span>Слухай "Хтонічний Світ" на Spotify</span>
               </a>
               <a className={ styles.item }
-                 href="#">
-                Apple Music <span>Слухай "3" на Apple Music</span>
+                 href="https://music.youtube.com/playlist?list=OLAK5uy_kMuOKNy_UuS3vKbwi9sENCLFgalTB3sog">
+                YouTube Music <span>Слухай "Хтонічний Світ" на YouTube Music</span>
               </a>
               <a className={ styles.item }
-                 href="#">
-                YouTube Music <span>Слухай "3" на YouTube Music</span>
-              </a>
-              <a className={ styles.item }
-                 href="#">
-                SoundCloud <span>Слухай "3" на SoundCloud</span>
+                 href="https://soundcloud.com/instrumentrex/sets/chthonic-world">
+                SoundCloud <span>Слухай "Хтонічний Світ" на SoundCloud</span>
               </a>
             </div>
             <div className={ styles.release }>
@@ -68,10 +63,10 @@ const Home = ({}: IProps) => {
                 href="https://open.spotify.com/album/5z80C9raZBsveKxNqCB6zh">
                 Spotify <span>Слухай "Віртуалізація" на Spotify</span>
               </a>
-              <a className={ styles.item }
-                 href="https://music.apple.com/us/album/віртуалізація/1792084808">
-                Apple Music <span>Слухай "Віртуалізація" на Apple Music</span>
-              </a>
+              {/* <a className={ styles.item } */}
+              {/*    href="https://music.apple.com/us/album/віртуалізація/1792084808"> */}
+              {/*   Apple Music <span>Слухай "Віртуалізація" на Apple Music</span> */}
+              {/* </a> */}
               <a className={ styles.item }
                  href="https://music.youtube.com/playlist?list=OLAK5uy_mtDoSy72Y1zwQ2GXlMWE6O1X-okwtvrWs">
                 YouTube Music <span>Слухай "Віртуалізація" на YouTube Music</span>

@@ -126,6 +126,7 @@ $checkerWhite: #703619; /* Matches the rich dark brown of page2 */
 }
 
 .item {
+  position: relative;
   display: block;
   border-bottom: 1px solid #28282a;
   padding: 18px;
