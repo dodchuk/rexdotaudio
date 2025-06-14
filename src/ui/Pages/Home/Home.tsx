@@ -31,7 +31,7 @@ const Home = ({}: IProps) => {
                 <div className={ styles.cover }><img src="/3.png" width="100"/></div>
                 <div className={ styles.albumInfo }>
                   <h3 className={ styles.albumName }>Хтонічний Світ</h3>
-                  <span>9 червня 2025</span>
+                  <span>9 червня 2025 • Single</span>
                   <span>Sono Distribution</span>
                 </div>
               </a>
@@ -54,7 +54,7 @@ const Home = ({}: IProps) => {
                 <div className={ styles.cover }><img src="/album1.jpg" width="100"/></div>
                 <div className={ styles.albumInfo }>
                   <h3 className={ styles.albumName }>Віртуалізація</h3>
-                  <span>28 січня 2025</span>
+                  <span>28 січня 2025 • Album</span>
                   <span>Slew Records</span>
                 </div>
               </a>
@@ -89,6 +89,11 @@ const Home = ({}: IProps) => {
               className={ cn(styles.item, styles.fav) }
               href="https://soundcloud.com/instrumentrex/club-mate">
               Клуб Мате (за участі MT) <span>Слухай "Клуб Мате (за участі MT)" на SoundCloud</span>
+            </a>
+            <a
+              className={ cn(styles.item, styles.fav) }
+              href="https://soundcloud.com/instrumentrex/unknown">
+              Невідоме <span>Слухай "Невідоме" на SoundCloud</span>
             </a>
           </div>
           <div className={ styles.experience }>
