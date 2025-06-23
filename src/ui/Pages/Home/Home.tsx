@@ -78,24 +78,24 @@ const Home = ({}: IProps) => {
             </div>
           </div>
         <div className={ styles.content }>
-          <div className={ styles.experience }>
-            <h2>Обрані треки</h2>
-            <a
-              className={ cn(styles.item, styles.fav) }
-              href="https://soundcloud.com/instrumentrex/future">
-              Майбутнє <span>Слухай "Майбутнє" на SoundCloud</span>
-            </a>
-            <a
-              className={ cn(styles.item, styles.fav) }
-              href="https://soundcloud.com/instrumentrex/club-mate">
-              Клуб Мате (за участі MT) <span>Слухай "Клуб Мате (за участі MT)" на SoundCloud</span>
-            </a>
-            <a
-              className={ cn(styles.item, styles.fav) }
-              href="https://soundcloud.com/instrumentrex/unknown">
-              Невідоме <span>Слухай "Невідоме" на SoundCloud</span>
-            </a>
-          </div>
+          {/* <div className={ styles.experience }> */}
+          {/*   <h2>Обрані треки</h2> */}
+          {/*   <a */}
+          {/*     className={ cn(styles.item, styles.fav) } */}
+          {/*     href="https://soundcloud.com/instrumentrex/future"> */}
+          {/*     Майбутнє <span>Слухай "Майбутнє" на SoundCloud</span> */}
+          {/*   </a> */}
+          {/*   <a */}
+          {/*     className={ cn(styles.item, styles.fav) } */}
+          {/*     href="https://soundcloud.com/instrumentrex/club-mate"> */}
+          {/*     Клуб Мате (за участі MT) <span>Слухай "Клуб Мате (за участі MT)" на SoundCloud</span> */}
+          {/*   </a> */}
+          {/*   <a */}
+          {/*     className={ cn(styles.item, styles.fav) } */}
+          {/*     href="https://soundcloud.com/instrumentrex/unknown"> */}
+          {/*     Невідоме <span>Слухай "Невідоме" на SoundCloud</span> */}
+          {/*   </a> */}
+          {/* </div> */}
           <div className={ styles.experience }>
             <h2>На різних платформах</h2>
             <a
